@@ -1,11 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/b50459588c.js" crossorigin="anonymous"></script>
     <title>Alejandro Solano portfolio</title>
 </head>
+
 <body>
-    <h1>Hello word!</h1>
+    <div class="container">
+        <header>
+            <div class="row align-items-center" style="height:10vh">
+                <div class="col-md-6">
+                    
+                    <!-- Button trigger modal -->
+                    <button type="button" id="btnContact" class="btnReset" data-toggle="modal" data-target="#exampleModalCenter">
+                        <i class="fas fa-comment icon"></i>Contact Me
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalCenterTitle">Alejandro Solano</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h6>Contact Info</h6>
+                                    <p>Email: alejandrosolanorodriguez@gmail.com</p>
+                                    <p>Linkedin: <a class="mainColor" href="https://www.linkedin.com/in/asolanor" target="_blank">linkedin.com/in/asolanor</a></p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary background" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="float-right">
+                        <p class="mainColor d-inline">Follow me!</p>
+                        <a href="https://www.linkedin.com/in/asolanor" target="_blank"><i
+                                class="fab fa-linkedin icon"></i></a>
+                        <a href="https://github.com/asolanorr" target="_blank"><i class="fab fa-github icon"></i></a>
+                        <a href="https://www.youtube.com/channel/UCuunFIb1MJR91Q0PuFVJ5IQ" target="_blank"><i
+                                class="fab fa-youtube icon"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <main>
+            <div class="row align-items-center" style="height:90vh">
+                <div class="col-md-6">
+                    <h5 class="secondaryColor">Hello, my name is</h5>
+                    <h1 class="mainColor font-weight-bold">Alejandro Solano.</h1>
+                    <h5 class="secondaryColor mb-5">I am a Full Stack Developer with strong skills in Front End
+                        develoment.</h5>
+                    <h5 class="secondaryColor">Knowledge in:</h5>
+                    <h5 class="secondaryColor">UI/UX Design</h5>
+                    <h5 class="secondaryColor">Javascript</h5>
+                    <h5 class="secondaryColor">TypeScript</h5>
+                    <h5 class="secondaryColor">Flutter</h5>
+                    <h5 class="secondaryColor">Node.js</h5>
+                    <h5 class="secondaryColor"><a href="#" class="mainColor">and more</a></h5>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center">
+                    <div class="circle"></div>
+                    <div class="photo"></div>
+                </div>
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
+
 </html>

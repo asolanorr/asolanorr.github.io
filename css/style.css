@@ -1,0 +1,79 @@
+:root {
+    --main-color: #2ecc71;
+    --secondary-color: #4c4c4c;
+}
+
+.mainColor {
+    color: var(--main-color);
+}
+
+.mainColor:hover {
+    color: #1daa58;
+    text-decoration: none;
+ }
+
+.secondaryColor {
+    color: var(--secondary-color);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: var(--main-color);
+}
+
+a:hover {
+   color: #1daa58;
+   text-decoration: none;
+}
+
+.background {
+    background-color: var(--main-color) !important;
+}
+
+.btnReset {
+    display: inline-block;
+    background: none;
+    border: none;
+    outline: none;
+    outline-color: none;
+}
+
+#btnContact {
+    height: -webkit-fill-available;
+    color: var(--main-color);
+    outline: none;
+    outline-color: none;
+}
+
+.icon {
+    color: #2ecc71;
+    margin-right: 5px;
+    margin-left: 5px;
+    outline: none;
+    outline-color: none;
+}
+
+.circle {
+    background-color: var(--main-color);
+    width: 25vh;
+    height: 25vh;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 0;
+    right: 40px;
+    bottom: -20px;
+}
+
+.photo {
+    background-image: url(../img/photo.jpg);
+    width: 25vh;
+    height: 25vh;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    border: solid 5px white;
+}
